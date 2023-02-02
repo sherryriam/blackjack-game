@@ -37,7 +37,7 @@ document.getElementById("cards-el").textContent += cards[i] + " "
 
 document.getElementById("sum-el").textContent ="Sum: " + sum
 if (sum<=20){
-message= "you want to draw a new car?"
+message= "you want to draw a new card?"
 }
 else if(sum === 21){
 message = "you've got Blackjack!"
